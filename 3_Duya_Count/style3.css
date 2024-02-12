@@ -95,3 +95,16 @@
     font-size: 20px;
     top: 0px;
 }
+
+
+@media screen and (max-width:640px) {
+    .duya_container{
+        padding: 20px;
+    }
+    .duya_count{
+        flex-direction: column;
+    }
+    .digital_tasbih{
+        font-size: 40px;
+    }
+}
