@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body id="body">
-    <h1 id="heading" class="title">IF YOU CLICK COLOR BUTTON BACKGROUND WILL BE CHANGED</h1>
-    <input id="input" class="input" type="text" disabled value="#000000">
-    <button id="click_btn" class="btn">COLOR GENERATOR</button>
+    <div id="toastMsgDiv">
 
+    </div>
+    <h1 id="heading" class="title">IF YOU CLICK COLOR BUTTON BACKGROUND WILL BE CHANGED</h1>
+    <div class="copy_div">
+        <input id="input" class="input" type="text" disabled value="#000000">
+        <button onclick="createDomElement()" class="copy_btn">Copy</button>
+    </div>
+    <button id="click_btn" class="btn">COLOR GENERATOR</button>
+     
     <script src="app2.js"></script>
 </body>
 </html>
